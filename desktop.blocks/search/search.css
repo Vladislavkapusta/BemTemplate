@@ -1,0 +1,16 @@
+.search {
+    display: flex;
+}
+.search__input {
+    flex: 1;
+    padding: 5px;
+    font-size: 24px;
+    min-width: 25vw;
+    border-radius: 15px 0px 0px 15px;
+}
+.search__button {
+    border-radius: 0px 15px 15px 0px;
+    padding: 5px 10px;
+    font-size: 24px;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 25vw;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+.menu__item {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 15px;
+}
+.menu__item:hover {
+    outline: 4px white solid;
+    border-radius: 45px;
+    color: rgb(231, 202, 202);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
